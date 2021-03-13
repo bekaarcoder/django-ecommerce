@@ -123,4 +123,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# config media url to render the files
+MEDIA_URL = '/images/'
+
+# configure static files directory
+STATICFILES_DIRS = [ BASE_DIR / 'static' ]
+
+# config media root for user uploaded content
+MEDIA_ROOT = 'static/images'
+
 CORS_ALLOW_ALL_ORIGINS = True
